@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 if (TextUtils.isEmpty(user) || TextUtils.isEmpty(pass)) {
                     Toast.makeText(getApplicationContext(), "Please fill all field!", Toast.LENGTH_LONG).show();
                 }
-                else if (RegNumber.equals("215010953") && Password.equals("emmanuel")) {
+                else if (RegNumber.equals("216114020") && Password.equals("musabirema")) {
                     Toast.makeText(getApplicationContext(), "login successful", Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(MainActivity.this, music.class);
                     startActivity(intent);
